@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+    --font-Chronicle-Display: "Chronicle Display",sans-sarif;
+    --font-Gilroy: "Gilroy";
+}
