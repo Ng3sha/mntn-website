@@ -20,6 +20,8 @@
     --container-7xl: 80rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
+    --text-base: 1rem;
+    --text-base--line-height: calc(1.5 / 1);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
     --text-4xl: 2.25rem;
@@ -2133,8 +2135,20 @@
   .top-30 {
     top: calc(var(--spacing) * 30);
   }
+  .top-35 {
+    top: calc(var(--spacing) * 35);
+  }
+  .top-35\.25 {
+    top: calc(var(--spacing) * 35.25);
+  }
   .top-50 {
     top: calc(var(--spacing) * 50);
+  }
+  .top-\[141\] {
+    top: 141;
+  }
+  .top-\[141px\] {
+    top: 141px;
   }
   .right-0 {
     right: 0px;
@@ -2177,6 +2191,12 @@
   }
   .left-10 {
     left: calc(var(--spacing) * 10);
+  }
+  .left-37\.5 {
+    left: calc(var(--spacing) * 37.5);
+  }
+  .left-\[150px\] {
+    left: 150px;
   }
   @layer daisyui.l1.l2.l3 {
     .hero-content {
@@ -3100,6 +3120,10 @@
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
+  }
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
@@ -3116,6 +3140,9 @@
   }
   .text-\[88px\] {
     font-size: 88px;
+  }
+  .text-\[240px\] {
+    font-size: 240px;
   }
   .leading-6 {
     --tw-leading: calc(var(--spacing) * 6);
@@ -3140,8 +3167,17 @@
   .text-\[\#FBD784\] {
     color: #FBD784;
   }
+  .text-\[\#FFFFFF\] {
+    color: #FFFFFF;
+  }
+  .text-\[2\] {
+    color: 2;
+  }
   .text-\[88p\] {
     color: 88p;
+  }
+  .text-\[240p\] {
+    color: 240p;
   }
   .text-black {
     color: var(--color-black);
@@ -3163,6 +3199,9 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .opacity-10 {
+    opacity: 10%;
   }
   .opacity-50 {
     opacity: 50%;
